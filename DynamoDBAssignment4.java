@@ -35,7 +35,7 @@ import com.amazonaws.services.dynamodbv2.model.ScanResult;
 
 public class DynamoDBAssignment4 {
 	static AWSCredentials credentials = new BasicAWSCredentials(
-			"AKIAI3EDWIHLI7GM5UXQ", "4BjJGCU4VbHL66wPpwx+FvqaIS6YXOUySgatchFG");
+			"", "4BjJGCU4VS6YXOUySgatchFG");
 
 	static AmazonDynamoDBClient client = new AmazonDynamoDBClient(credentials);
 	static DynamoDB dynamoDB = new DynamoDB(client);
